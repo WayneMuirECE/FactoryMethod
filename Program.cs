@@ -32,7 +32,6 @@ namespace WayneMuirECE.FactoryMethod {
 			// Wait for user input
 			Console.ReadKey();
 		}
-
 	}
 
 	#region Product
@@ -176,6 +175,7 @@ namespace WayneMuirECE.FactoryMethod {
 			Employees.Add(e12586);
 		}
 	}
+ 
 	/// <summary>
 	/// Data source class for Company A Employee
 	/// </summary>
@@ -218,6 +218,7 @@ namespace WayneMuirECE.FactoryMethod {
 			emp[2] = emp2;
 		}
 	}
+ 
 	/// <summary>
 	/// Data source class for Company B Employee
 	/// </summary>
@@ -229,8 +230,6 @@ namespace WayneMuirECE.FactoryMethod {
 		// Idenfification number for an employee
 		public string BadgeID;
 	}
-
 	#endregion Data Sources
-
 }
 
